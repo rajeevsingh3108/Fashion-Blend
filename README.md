@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Fashion Blend
 
 Fashion Blend is a modern, stylish web project for showcasing and shopping the latest fashion trends for men and women. The site features a clean, responsive design and interactive elements to enhance the user experience.
@@ -37,4 +36,4 @@ This project is for educational and demonstration purposes.
 =======
 # Fashion-Blend
 E-commerce modern, stylish web project
->>>>>>> 54f4710005c30866101d10a24790500d8e01bdeb
+54f4710005c30866101d10a24790500d8e01bdeb
