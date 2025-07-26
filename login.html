@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login & Sign Up</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/categories.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="logo">
+            <h3><a href="fashion.html" class="logo-name">Fashion Blend</a></h3>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="contact.html">ContactUs</a></li>
+            <li><a href="login.html" id="login">Login</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Main Container using your original layout -->
+    <div class="login">
+        <!-- Left Side - Form Container -->
+        <div class="form-container">
+            <div class="form-wrapper">
+                <!-- Toggle Buttons -->
+                <div class="form-toggle">
+                    <button class="toggle-btn active" id="loginToggle">Login</button>
+                    <button class="toggle-btn" id="signupToggle">Sign Up</button>
+                </div>
+
+                <!-- Login Form -->
+                <form id="loginForm" class="active">
+                    <center class="form-title">LOGIN HERE 🦄</center>
+                    <br><br>
+                    
+                    <div class="login-form">
+                        <input type="text" placeholder="Username Or Email" id="loginUsername">
+                        <br><br> 
+                        <input type="password" placeholder="Password" id="loginPassword"><br><br>
+                        <button class="login-button" id="loginBtn">LOG IN</button>&nbsp;&nbsp;
+                        <a href="index.html"><button class="back-button">BACK</button></a> 
+                    </div>
+
+                    <hr>
+                    <br>
+
+                    <h4 class="other-login-op">Or login with</h4>
+                    <br>
+                    
+                    <div class="social">
+                        <a href="https://google.com"><img src="images/icons/icon-google.png" class="other-login-op-img" height="33" width="30" alt=""></a>&nbsp;&nbsp;
+                        <a href="https://facebook.com"><img src="images/icons/fb.png" class="other-login-op-img" height="30" width="35" alt=""></a>&nbsp;&nbsp;
+                        <a href="https://google.com"><img src="images/icons/favicon.jpg" class="other-login-op-img" height="32" width="35" alt=""></a>
+                    </div>
+                </form>
+
+                <!-- Sign Up Form -->
+                <form id="signupForm">
+                    <center class="form-title">SIGN UP HERE 🎉</center>
+                    <br><br>
+                    
+                    <div class="login-form">
+                        <input type="text" placeholder="Full Name" id="signupName">
+                        <br><br>
+                        <input type="email" placeholder="Email" id="signupEmail">
+                        <br><br>
+                        <input type="text" placeholder="Username" id="signupUsername">
+                        <br><br> 
+                        <input type="password" placeholder="Password" id="signupPassword"><br><br>
+                        <input type="password" placeholder="Confirm Password" id="confirmPassword"><br><br>
+                        <button class="login-button" id="signupBtn">SIGN UP</button>&nbsp;&nbsp;
+                        <a href="index.html"><button class="back-button">BACK</button></a> 
+                    </div>
+
+                    <hr>
+                    <br>
+
+                    <h4 class="other-login-op">Or sign up with</h4>
+                    <br>
+                    
+                    <div class="social">
+                        <a href="https://google.com"><img src="images/icons/icon-google.png" class="other-login-op-img" height="33" width="30" alt=""></a>&nbsp;&nbsp;
+                        <a href="https://facebook.com"><img src="images/icons/fb.png" class="other-login-op-img" height="30" width="35" alt=""></a>&nbsp;&nbsp;
+                        <a href="https://google.com"><img src="images/icons/favicon.jpg" class="other-login-op-img" height="32" width="35" alt=""></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Vertical Line -->
+        <div class="vl"></div>
+
+        <!-- Right Side - Image Container -->
+        <div class="image-container">
+            <img src="images/login-images/undraw_empty_cart_co35.png" class="login-image" alt="Login Image">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+   <p class="copy-right"><a href="index.html">fashionblend</a>&copy;2025</p>
+    
+  <!-- FOOTER -->
+    <script type="text/javascript" src="js/nav.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
